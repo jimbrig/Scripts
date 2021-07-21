@@ -1,0 +1,1 @@
+C:\Windows\System32\shutdown.exe -r -o -f -t 05 -c "Restarting in 5 seconds to boot into recovery mode."

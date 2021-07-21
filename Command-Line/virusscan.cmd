@@ -1,0 +1,1 @@
+"%ProgramFiles%\Windows Defender\MpCmdRun.exe" -Scan -ScanType 1
