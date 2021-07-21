@@ -1,0 +1,1 @@
+cat /mnt/c/users/admin/.docker/github_cr_pat | docker login ghcr.io -u jimbrig --password-stdin
