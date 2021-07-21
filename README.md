@@ -5,23 +5,14 @@
 ## Contents
 
 - [AutoHotKey](./AutoHotKey)
+- [Batch-Files](./Batch-Files)
+- [Command-Line](./Command-Line)
+- [Git-Extras](./Git-Extras)
+- [Linux-Bash](./Linux-Bash)
+- [Notes](./Notes)
 - [PowerShell](./PowerShell)
-
-## Scripts
-
-### AutoHotKey Scripts
-
-### PowerShell Scripts
-
-### Command-Line Scripts
-
-### Visual-Basic Scripts
-
-### Batch-Files
-
-### WSL/Linux/Bash Scripts
-
-### Git-Extras
+- [R](./R)
+- [Visual Basic](./Visual-Basic)
 
 ***
 Jimmy Briggs | 2021
