@@ -1,0 +1,28 @@
+
+========================== CUSTOM-TEXT-EXPANDERS ===========================
+<HS> adr.str            = 2161 PEACHTREE RD NE APT 401
+<HS> adr.               = 2161 PEACHTREE RD NE APT 401 ATLANTA, GA 30309
+<HS> adr.zip            = 30309
+<HS> e.g.1              = jimbrig1993@gmail.com
+<HS> e.o.1              = jimbrig1993@outlook.com
+<HS> e.g.2              = jimbrig2011@gmail.com
+<HS> e.o.2              = jimbrig2011@outlook.com
+
+================================ HOTKEYHELP ================================
+Win+F1                  <--  ~ Display Help ~
+Ctrl+F                  <-- (Hotkey Help) : Find
+Win+Ctrl+F1             <-- Excluded Files, Hotkeys, and Hotstrings
+Win+Alt+Ctrl+F1         <-- Raw Hotkey List
+Win+Alt+F1              <-- Settings
+
+========================= OBSIDIAN-GLOBAL-SHORTCUT =========================
+Ctrl+Alt+Shift+N        <-- Obsidian: Fresh New Note
+Ctrl+Alt+Shift+O        <-- Obsidian: Open Note by Name
+Ctrl+Alt+Shift+F        <-- Obsidian: Search All Notes
+
+========================= TODOIST-GLOBAL-SHORTCUT ==========================
+Alt+Ctrl+T              <-- Open Todoist
+Alt+Ctrl+A              <-- Open Todoist and Add Task Shortcut
+
+===================== TOGGLE-HIDDEN-FILES-AND-FOLDERS ======================
+Ctrl+F2                 <-- Toggle Hidden Files and Folders
