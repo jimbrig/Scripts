@@ -1,0 +1,8 @@
+Clear-Disk -Number 3 -RemoveData -Confirm:$false -PassThru
+New-Partition -DiskNumber 3 -UseMaximumSize -AssignDriveLetter | Format-Volume -FileSystem NTFS
+
+Mount-DiskImage -ImagePath "F:\System\Windows\ISO\Windows10_InsiderPreview_Client_x64_en-us_21354.iso"
+
+Get-CimInstance Win32_LogicalDisk | ?{ $_.DriveType -eq 5} | select DeviceID
+
+xcopy H:\ G:\ /e
