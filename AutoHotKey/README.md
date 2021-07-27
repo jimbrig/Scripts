@@ -1,25 +1,17 @@
----
-Creation Date: 2021-07-21 16:18
-Last Modified Date: Wednesday 21st July 2021 16:18:36
-Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: AutoHotKey-Scripts
-Tags: ["#dev", "#scripts", "#config"]
----
-
 # AutoHotKey Scripts
 
 ## Contents
 
-- [[#Master Run Script|Master Run Script]]
-- [[#Custom Scripts|Custom Scripts]]
-	- [[#Text Expansion Hot Strings|Text Expansion Hot Strings]]
-	- [[#Toggle Hidden Files and Folders|Toggle Hidden Files and Folders]]
-- [[#Global Shortcut Scripts|Global Shortcut Scripts]]
-	- [[#Obsidian Global Shortcuts|Obsidian Global Shortcuts]]
-	- [[#Todoist Global Shortcuts|Todoist Global Shortcuts]]
-	- [[#Keeper Global Shortcuts|Keeper Global Shortcuts]]
-- [[#Hotkey Help Script|Hotkey Help Script]]
-
+* [Directory Structure](#directory-structure)
+* [Master Run Script](#master-run-script)
+* [Custom Scripts](#custom-scripts)
+  + [Text Expansion Hot Strings](#text-expansion-hot-strings)
+  + [Toggle Hidden Files and Folders](#toggle-hidden-files-and-folders)
+* [Global Shortcut Scripts](#global-shortcut-scripts)
+  + [Obsidian Global Shortcuts](#obsidian-global-shortcuts)
+  + [Todoist Global Shortcuts](#todoist-global-shortcuts)
+  + [Keeper Global Shortcuts](#keeper-global-shortcuts)
+* [Hotkey Help Script](#hotkey-help-script)
 
 ## Directory Structure
 
