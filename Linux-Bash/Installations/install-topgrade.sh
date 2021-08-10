@@ -1,0 +1,1 @@
+sudo cargo install topgrade
