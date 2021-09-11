@@ -1,8 +1,12 @@
 # AutoHotKey Scripts
 
+## TODO:
+
+- [ ] AHK Hotkey Snippet for HTML/Markdown Collapsible Details
+
 ## Contents
 
-* [Directory Structure](#directory-structure)
+* [Directories](#directory-structure)
 * [Master Run Script](#master-run-script)
 * [Custom Scripts](#custom-scripts)
   + [Text Expansion Hot Strings](#text-expansion-hot-strings)
@@ -12,8 +16,12 @@
   + [Todoist Global Shortcuts](#todoist-global-shortcuts)
   + [Keeper Global Shortcuts](#keeper-global-shortcuts)
 * [Hotkey Help Script](#hotkey-help-script)
-
+	
 ## Directory Structure
+
+<details>
+  <summary>Directory Structure</summary>
+	<p>
 
 - 📂 __C:\\Users\\jimbr\\Dev\\scripts\\AutoHotKey__
   - 📂 __Custom__
@@ -36,12 +44,21 @@
 	- 📄 [WinClipAPI.ahk](WinClip/WinClipAPI.ahk)
 	- 📄 [test.ahk](WinClip/test.ahk)
 
+	</p>
+</details>
+
+
+
 ## Master Run Script
 
 To simplify the process of running various scripts across multiple `.ahk` files, I consolidate the scripts into a single, unified **Master.ahk** script that will run at system startup.
 
 This also aids in reducing the task bar icons to a single icon as opposed to multiple icons for each individual script, given that each of the scripts utilizes the `#NoTrayIcon` top-level configuration.
 
+<details>
+  <summary>View Code</summary>
+  <p>
+  
 ```autohotkey
 ; ### Master Script ###
 
@@ -68,6 +85,9 @@ Run, "HotKeyHelp\HotkeyHelp.ahk"
 ; WinClip
 ; Run, "WinClip\WinClip.ahk"
 ```
+  </p>
+</details>
+
 
 ## Custom Scripts
 
@@ -99,7 +119,9 @@ Address Hot Strings:
 - `adr.str` - street only
 - `adr.zip` - zip only
 
-Script:
+<details>
+  <summary>View Code</summary>
+  <p>
 
 ```autohotkey
 #NoTrayIcon
@@ -119,11 +141,17 @@ SetWorkingDir, %A_ScriptDir%
 ::adr.str::2161 PEACHTREE RD NE APT 401
 ::adr.zip::30309
 ```
+	</p>
+</details>
 
 ### Toggle Hidden Files and Folders
 
 When in File Explorer, press *Ctrl + F2* to toggle hidden files and folders from the view:
 
+<details>
+  <summary>View Code</summary>
+  <p>
+	  
 ```sutohotkey
 #NoTrayIcon
 
@@ -148,6 +176,8 @@ Toggle_HiddenFiles_Display:
   PostMessage, 0x111, 41504,,, ahk_id %ID%
 Return
 ```
+	</p>
+</details>
 
 ## Global Shortcut Scripts
 
@@ -169,6 +199,10 @@ Currently I have scripts for the following:
 - *Ctrl + Alt + Shift + N* - Add New Note
 - *Ctrl + Alt + Shift + F* - Search Notes
 - *Ctrl + Alt + Shift + O* - Open Note
+
+<details>
+  <summary>View Code</summary>
+  <p>
 
 ```autohotkey
 #NoTrayIcon
@@ -295,11 +329,17 @@ return
 	SendInput ^o
 return
 ```
+	</p>
+</details>
 
 ### Todoist Global Shortcuts
 
 - Open Todoist and Quick Add Task: *Ctrl + Alt + A*
 - Launch Todoist: *Ctrl + Alt + T*
+
+<details>
+  <summary>View Code</summary>
+  <p>
 
 ```autohotkey
 id := "com.todoist" ; AppUserModelid
@@ -411,6 +451,8 @@ return
 	}
 return
 ```
+	</p>
+</details>
 
 ### Keeper Global Shortcuts
 
@@ -422,7 +464,9 @@ return
 
 ![[Pasted image 20210721170547.png]]
 
-Script:
+<details>
+  <summary>View Code</summary>
+  <p>
 
 ```autohotkey
 ; Hotkey Help
@@ -1643,6 +1687,8 @@ Recursive:
 	;}
 	;}
 ```
+	</p>
+</details>
 
 
 ***
