@@ -1,4 +1,4 @@
-# Espanso Sctipts
+# Espanso Scripts
 
 [Espanso](https://espanso.org/) is an Open Source text-expander tool.
 
