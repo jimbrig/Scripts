@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 
 - Create a README for azure-cli scripts
 - Update root README
+- Update root README topics
 
 ### Features
 
@@ -33,6 +34,7 @@ All notable changes to this project will be documented in this file.
 
 - Autopublish 2023-06-17T23:21:00Z
 - Autopublish 2023-06-17T23:22:44Z
+- Autopublish 2023-06-17T23:23:46Z
 
 ### Config
 
