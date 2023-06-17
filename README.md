@@ -1,6 +1,10 @@
 # Scripts 📜
 
-> Commonly used scripts in a Windows Development Environment.
+> **Note** *Commonly used scripts in a Windows Development Environment.*
+
+[![Automate Changelog](https://github.com/jimbrig/Scripts/actions/workflows/changelog.yml/badge.svg)](https://github.com/jimbrig/Scripts/actions/workflows/changelog.yml)
+
+***
 
 ## Contents
 
