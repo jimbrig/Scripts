@@ -1,0 +1,13 @@
+click
+Faker
+Flask
+Flask-SQLAlchemy
+greenlet
+itsdangerous
+Jinja2
+MarkupSafe
+python-dateutil
+six
+SQLAlchemy
+text-unidecode
+Werkzeug
