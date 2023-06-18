@@ -29,12 +29,14 @@ All notable changes to this project will be documented in this file.
 - Add various python utility scripts
 - Add new R scripts
 - Add new Edge protocol registry edit scripts
+- Add flask user model script for python
 
 ### Miscellaneous Tasks
 
 - Autopublish 2023-06-17T23:21:00Z
 - Autopublish 2023-06-17T23:22:44Z
 - Autopublish 2023-06-17T23:23:46Z
+- Autopublish 2023-06-17T23:25:22Z
 
 ### Config
 
