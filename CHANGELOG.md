@@ -30,6 +30,8 @@ All notable changes to this project will be documented in this file.
 - Add new R scripts
 - Add new Edge protocol registry edit scripts
 - Add flask user model script for python
+- Update backblaze pwsh script
+- Various script updates
 
 ### Miscellaneous Tasks
 
@@ -37,6 +39,7 @@ All notable changes to this project will be documented in this file.
 - Autopublish 2023-06-17T23:22:44Z
 - Autopublish 2023-06-17T23:23:46Z
 - Autopublish 2023-06-17T23:25:22Z
+- Autopublish 2023-06-18T01:25:15Z
 
 ### Config
 
