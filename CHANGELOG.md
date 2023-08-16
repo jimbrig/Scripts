@@ -32,6 +32,7 @@ All notable changes to this project will be documented in this file.
 - Add flask user model script for python
 - Update backblaze pwsh script
 - Various script updates
+- Add navigation bar toggle AHK script
 
 ### Miscellaneous Tasks
 
@@ -42,6 +43,7 @@ All notable changes to this project will be documented in this file.
 - Autopublish 2023-06-18T01:25:15Z
 - Autopublish 2023-07-30T21:08:18Z
 - Autopublish 2023-08-03T00:24:38Z
+- Autopublish 2023-08-03T00:25:06Z
 
 ### Config
 
