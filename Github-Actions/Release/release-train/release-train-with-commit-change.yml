@@ -1,0 +1,25 @@
+on:
+  push:
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: git config
+        run: |
+          git config --local user.name '${{ github.actor }}'
+          git config --local user.email '${{ github.actor }}@users.noreply.github.com'
+      - uses: WillAbides/release-train@v3.2.0
+        with:
+          create-release: true
+          release-refs: main
+          pre-tag-hook: |
+            set -e
+            echo "$RELEASE_TAG" > version.txt
+            git add version.txt
+            git commit -m "bump version.txt to $RELEASE_TAG"
+            git tag "$RELEASE_TAG"

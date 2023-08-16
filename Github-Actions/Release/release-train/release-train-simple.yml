@@ -1,0 +1,15 @@
+on:
+  push:
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # needed for creating tags and releases
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: WillAbides/release-train@v3.2.0
+        with:
+          create-release: true
+          release-refs: main
